@@ -2,7 +2,8 @@
 
 ### Usage
 
-First `cp /path/to/nali-ng /usr/local/bin/nali`
+1. First download http://update.cz88.net/soft/setup.zip, extract the zip and exe, put the `QQWry.Dat` to `/usr/local/share/QQWry.Dat`
+2. Then compile and `cp /path/to/nali-ng /usr/local/bin/nali`
 
 ``` shell
 ➜  ~  nali 8.8.8.8
@@ -73,3 +74,6 @@ cat xxx.txt | nali
 etc...
 ```
 
+#### And there is a shell script do the Dat file update thing
+
+https://gist.github.com/wen-long/324459d17d72d2260003
