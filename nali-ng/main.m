@@ -75,7 +75,7 @@ int main(int argc, const char * argv[]) {
                 }
                 break;
             case 2:
-                CLLog(@"%@", [[NSMutableString stringWithUTF8String:argv[1]] ipLocationSring]);
+                CLLog(@"%@\n", [[NSMutableString stringWithUTF8String:argv[1]] ipLocationSring]);
                 break;
             default:
                 CLLog(@"Usage:\n1)    # nali 8.8.8.8\n2)    # nali\n      > 8.8.8.8\n")
