@@ -2,7 +2,7 @@
 
 ### Usage
 
-first `cp /path/to/nali-ng /usr/local/bin/nali`
+First `cp /path/to/nali-ng /usr/local/bin/nali`
 
 ``` shell
 ➜  ~  nali 8.8.8.8
@@ -21,13 +21,9 @@ add these lines to `.bashrc`
 
 ``` shell
 alias ping='function _ping(){ ping $@ | nali; }; _ping'
-
 alias mtr='function _mtr(){ mtr $@ | nali; }; _mtr'
-
 alias dig='function _dig(){ dig $@ | nali; }; _dig'
-
 alias nslookup='function _nslookup(){ nslookup $@ | nali; }; _nslookup'
-
 ```
 
 then you can use dig like these
